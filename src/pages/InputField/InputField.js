@@ -18,7 +18,6 @@ class InputField extends React.Component {
         this.props.handleCheckerBoard(this.state.checkerBoard)
     };
 
-
     render() {
         return (
             <label>
