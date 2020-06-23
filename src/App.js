@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import InputField from './pages/InputField/InputField'
 
 
 class App extends React.Component {
@@ -96,6 +97,7 @@ class App extends React.Component {
             <td className="unused"></td>
           </tr>
         </table>
+        <InputField />
       </div>
     );
   }
