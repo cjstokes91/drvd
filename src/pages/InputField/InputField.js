@@ -5,12 +5,14 @@ class InputField extends React.Component {
         checkerBoard: 8
     };
 
+    // handleChange will set the state for the size of the board 
     handleChange = e => {
         this.setState({
             checkerBoard: this.handleChange
         });
     };
 
+    // handleSubmit will handle the input submit
     handleSubmit = e => {
         e.preventDefault();
         this.props.handleCheckerBoard(this.state.checkerBoard)
@@ -23,9 +25,7 @@ class InputField extends React.Component {
                 Enter Number :
                 <div>
                     <input
-                        default="8"
-                        value={this.state.checkerBoard}
-                        onChange={this.handleChange}
+                        value={this.handleChange}
                         onSubmit={this.handleSubmit}
                     >
                     </input>
@@ -34,5 +34,4 @@ class InputField extends React.Component {
         );
     };
 }
-
 export default InputField;
