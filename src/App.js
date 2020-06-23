@@ -2,15 +2,10 @@ import React from 'react';
 import './App.css';
 import InputField from './pages/InputField/InputField'
 
-
 class App extends React.Component {
   state = {
-    checkerBoard: 0
+    checkerBoard: 8
   };
-
-  handleCheckerBoard = () => {
-
-  }
 
   render() {
     return (
@@ -100,7 +95,6 @@ class App extends React.Component {
         <InputField />
       </div>
     );
-  }
-}
-
+  };
+};
 export default App;

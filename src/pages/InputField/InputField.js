@@ -3,29 +3,36 @@ import React from 'react';
 class InputField extends React.Component {
     state = {
         checkerBoard: 8
-
-    }
+    };
 
     handleChange = e => {
-        // e.preventDefault();
-        // this.setState({
-        //     this.handleCheckerBoard(this.state)
-        // })
-    }
+        this.setState({
+            checkerBoard: this.handleChange
+        });
+    };
 
     handleSubmit = e => {
         e.preventDefault();
-    }
+        this.props.handleCheckerBoard(this.state.checkerBoard)
+    };
 
 
     render() {
         return (
-            <input onChange={this.handleChange} onSubmit={this.handleSubmit} >
-                {/* value={this.handleChange} */}
-
-            </input>
-        )
-    }
+            <label>
+                Enter Number :
+                <div>
+                    <input
+                        default="8"
+                        value={this.state.checkerBoard}
+                        onChange={this.handleChange}
+                        onSubmit={this.handleSubmit}
+                    >
+                    </input>
+                </div>
+            </label>
+        );
+    };
 }
 
 export default InputField;
