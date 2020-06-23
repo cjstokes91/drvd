@@ -16,84 +16,84 @@ class App extends React.Component {
       <div className="App">
         <table id="board">
           <tr>
-            <td class="unused"></td>
-            <td class="used"><span></span></td>
-            <td class="unused"></td>
-            <td class="used"><span></span></td>
-            <td class="unused"></td>
-            <td class="used"><span></span></td>
-            <td class="unused"></td>
-            <td class="used"><span></span></td>
+            <td className="unused"></td>
+            <td className="used"><span></span></td>
+            <td className="unused"></td>
+            <td className="used"><span></span></td>
+            <td className="unused"></td>
+            <td className="used"><span></span></td>
+            <td className="unused"></td>
+            <td className="used"><span></span></td>
           </tr>
           <tr>
-            <td class="used"><span></span></td>
-            <td class="unused"></td>
-            <td class="used"><span></span></td>
-            <td class="unused"></td>
-            <td class="used"><span></span></td>
-            <td class="unused"></td>
-            <td class="used"><span></span></td>
-            <td class="unused"></td>
+            <td className="used"><span></span></td>
+            <td className="unused"></td>
+            <td className="used"><span></span></td>
+            <td className="unused"></td>
+            <td className="used"><span></span></td>
+            <td className="unused"></td>
+            <td className="used"><span></span></td>
+            <td className="unused"></td>
           </tr>
           <tr>
-            <td class="unused"></td>
-            <td class="used"><span></span></td>
-            <td class="unused"></td>
-            <td class="used"><span></span></td>
-            <td class="unused"></td>
-            <td class="used" ><span></span></td>
-            <td class="unused"></td>
-            <td class="used"><span></span></td>
+            <td className="unused"></td>
+            <td className="used"><span></span></td>
+            <td className="unused"></td>
+            <td className="used"><span></span></td>
+            <td className="unused"></td>
+            <td className="used" ><span></span></td>
+            <td className="unused"></td>
+            <td className="used"><span></span></td>
           </tr>
           <tr>
-            <td class="used"><span></span></td>
-            <td class="unused"></td>
-            <td class="used"><span></span></td>
-            <td class="unused"></td>
-            <td class="used"><span></span></td>
-            <td class="unused"></td>
-            <td class="used"><span></span></td>
-            <td class="unused"></td>
+            <td className="used"><span></span></td>
+            <td className="unused"></td>
+            <td className="used"><span></span></td>
+            <td className="unused"></td>
+            <td className="used"><span></span></td>
+            <td className="unused"></td>
+            <td className="used"><span></span></td>
+            <td className="unused"></td>
           </tr>
           <tr>
-            <td class="unused"></td>
-            <td class="used"><span></span></td>
-            <td class="unused"></td>
-            <td class="used"><span></span></td>
-            <td class="unused"></td>
-            <td class="used"><span></span></td>
-            <td class="unused"></td>
-            <td class="used"><span></span></td>
+            <td className="unused"></td>
+            <td className="used"><span></span></td>
+            <td className="unused"></td>
+            <td className="used"><span></span></td>
+            <td className="unused"></td>
+            <td className="used"><span></span></td>
+            <td className="unused"></td>
+            <td className="used"><span></span></td>
           </tr>
           <tr>
-            <td class="used"><span></span></td>
-            <td class="unused"></td>
-            <td class="used"><span></span></td>
-            <td class="unused"></td>
-            <td class="used"><span></span></td>
-            <td class="unused"></td>
-            <td class="used"><span></span></td>
-            <td class="unused"></td>
+            <td className="used"><span></span></td>
+            <td className="unused"></td>
+            <td className="used"><span></span></td>
+            <td className="unused"></td>
+            <td className="used"><span></span></td>
+            <td className="unused"></td>
+            <td className="used"><span></span></td>
+            <td className="unused"></td>
           </tr>
           <tr>
-            <td class="unused"></td>
-            <td class="used"><span></span></td>
-            <td class="unused"></td>
-            <td class="used"><span></span></td>
-            <td class="unused"></td>
-            <td class="used"><span></span></td>
-            <td class="unused"></td>
-            <td class="used"><span></span></td>
+            <td className="unused"></td>
+            <td className="used"><span></span></td>
+            <td className="unused"></td>
+            <td className="used"><span></span></td>
+            <td className="unused"></td>
+            <td className="used"><span></span></td>
+            <td className="unused"></td>
+            <td className="used"><span></span></td>
           </tr>
           <tr>
-            <td class="used"><span></span></td>
-            <td class="unused"></td>
-            <td class="used"><span></span></td>
-            <td class="unused"></td>
-            <td class="used"><span></span></td>
-            <td class="unused"></td>
-            <td class="used"><span></span></td>
-            <td class="unused"></td>
+            <td className="used"><span></span></td>
+            <td className="unused"></td>
+            <td className="used"><span></span></td>
+            <td className="unused"></td>
+            <td className="used"><span></span></td>
+            <td className="unused"></td>
+            <td className="used"><span></span></td>
+            <td className="unused"></td>
           </tr>
         </table>
       </div>
