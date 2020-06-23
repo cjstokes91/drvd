@@ -2,14 +2,18 @@ import React from 'react';
 
 class InputField extends React.Component {
     state = {
-        checkerBoard: 8
+        checkerBoard: 8,
+        // newCheckerBoard: 
     };
+
 
     // handleChange will set the state for the size of the board 
     handleChange = e => {
+        const checkerBoard = { ...this.state.checkerBoard, [e.target.number]: e.target.value };
         this.setState({
-            checkerBoard: this.handleChange
+            checkerBoard: { ...checkerBoard }
         });
+        // console.log(this.state.handleChange)
     };
 
     // handleSubmit will handle the input submit

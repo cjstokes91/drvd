@@ -2,11 +2,10 @@ import React from 'react';
 import './App.css';
 import InputField from './pages/InputField/InputField'
 import TableData from './pages/TableData/TableData';
-// import TableData from './pages/TableData/TableData';
 
 class App extends React.Component {
   state = {
-    checkerBoard: 8,
+    checkerBoard: 0,
     // newCheckerBoard: []
   };
 
