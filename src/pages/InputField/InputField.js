@@ -19,7 +19,7 @@ class InputField extends React.Component {
     // handleSubmit will handle the input submit
     handleSubmit = e => {
         e.preventDefault();
-        this.props.handleCheckerBoard(this.state.checkerBoard)
+        this.props.handleAddInput(this.state.checkerBoard)
     };
 
     render() {

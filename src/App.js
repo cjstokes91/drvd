@@ -9,12 +9,11 @@ class App extends React.Component {
     // newCheckerBoard: []
   };
 
-  // handleAddInput = () => {
-  //   // newCheckerBoard = this.state.newCheckerBoard
-  //   this.setState({
-  //     checkerBoard: [...this.state.checkerBoard, newCheckerBoard]
-  //   });
-  // };
+  handleAddInput = () => {
+    this.setState({
+      checkerBoard: [...this.state.checkerBoard]
+    });
+  };
 
   // input that accepts number will setState
   // state will change the size of the board
@@ -26,7 +25,9 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <InputField />
+        <InputField
+          handleAddInput={this.handleAddInput}
+        />
         <TableData />
       </div>
     );
